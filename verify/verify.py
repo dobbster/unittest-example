@@ -32,3 +32,6 @@ class User:
         # Print out custom user message
         return 'Hi, my name is {} and you can contact me at {} or {}' \
             .format(self.name, self.phone, self.email)
+
+me = User('Harsh', 7506108466, 'harsh.sinha@quantiphi.com')
+print(me)
