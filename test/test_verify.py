@@ -7,7 +7,7 @@ class TestVerify(unittest.TestCase):
     def setUp(self):
         '''Declare instance variables'''
         # Declare dummy instance
-        self.me = User('Harsh', 7506298466, 'harshsinha@quantiphi.com')
+        self.me = User('Harsh', 7506298466, 'harsh.sinha@quantiphi.com')
 
     @classmethod
     def tearDownClass(cls):
